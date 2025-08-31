@@ -1,0 +1,7 @@
+project: default
+source:
+  repoURL: https://github.com/wsronek/argocd-apps.git
+  path: nginx
+destination:
+  server: https://kubernetes.default.svc
+  namespace: default
